@@ -1,10 +1,12 @@
-# 👋 Hi, I’m Khin Yadanar Lin
+# Khin's Portfolio 
 
 ## Background
 
-I bring over eight years of experience in **Business Strategy, Market Research, and Analytics** with a focus on consumer behaviours and market analysis. My educational background includes a Bachelor’s in Business Management and a Master’s in Business Analytics. My experience working with survey data led me to explore the advanced realms of data analysis, where I discovered the extensive capabilities of data beyond traditional tools. This exploration ignited my interest in data science, a field that I realised offers a more profound and impactful way of harnessing Big data. Currently, I am actively seeking opportunities to establish my career in data science.
+Hello and welcome to my portfolio.
 
-This portfolio presents a collection of personal projects that I worked on as part of online courses and various data challenges from platforms like Maven Analytics and Kaggle. The projects are organised into three distinct categories: Data Analytics, Data Science, and Data Visualisations. In these projects, I predominantly employ tools such as MySQL, R, Python, and Power BI to demonstrate versatility and depth in my analytical approach.
+I bring over eight years of experience in **Business Strategy, Market Research, and Analytics** with a focus on consumer behaviours and market analysis. My educational background includes a Bachelor’s in Business Management and a Master’s in Business Analytics. My experience working with survey data led me to explore the realms of data analysis, where I discovered the extensive capabilities of data beyond traditional tools. This exploration ignited my interest in data science, a field that I realised offers a more profound and impactful way of harnessing Big data. Currently, I am actively seeking opportunities to establish my career in data science.
+
+This portfolio presents a collection of personal projects that I worked on as part of online courses and various data challenges from platforms like Maven Analytics and Kaggle. The projects are organised into three distinct categories: Data Analytics, Data Visualisations, and Data Science. In these projects, I predominantly employ tools such as MySQL, R, Python, and Power BI to demonstrate versatility and depth in my analytical approach.
 
 ## Projects
 
