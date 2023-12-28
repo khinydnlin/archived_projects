@@ -12,7 +12,7 @@ This portfolio presents a collection of personal projects that I worked on as pa
 | Category | Description | Example Projects | Tools | Status |
 |----------|-------------|------------------|--------------|--------|
 | Data Analytics | Projects focused on analysing datasets to extract insights and inform business strategy. | Exploratory Data Analysis, Sales Analysis, Product and User Behaviour Analysis | MySQL, Excel | In Progress |
-| Data Visualizations | Creation of visual representations of data to communicate information clearly and efficiently. | Dashboard Design, Trend Reporting | Power BI, Tableau | Planned |
+| Data Visualisations | Creation of visual representations of data to communicate information clearly and efficiently. | Dashboard Design, Trend Reporting | Power BI, Tableau | Planned |
 | Data Science | Application of statistical and machine learning methods to solve complex business problems. | A/B Testing, Predictive Modelling, Time Series Forecasting| Python, R | Coming Soon |
 
 
