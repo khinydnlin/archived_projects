@@ -1,4 +1,11 @@
-# Khin Yadanar Lin's Portfolio 
+                                                                                                                        # Khin Yadanar Lin's Portfolio
+                                                                                                                        [![LinkedIn][linkedin-shield]][linkedin-url]
+
+...
+
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn--blue?style=social&logo=LinkedIn
+[linkedin-url]: https://www.linkedin.com/in/khinyadanarlin/
+
 
 ### 🔍 About Me:
 
