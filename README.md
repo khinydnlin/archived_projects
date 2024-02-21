@@ -15,20 +15,20 @@
 
 ### 🔧 Analytics Tools & Technologies:
 
-- **Data Analytics:** MySQL, Python (Pandas, NumPy, Statsmodels), SPSS, R (Regression, ARIMA Forecasting)
-- **Data Visualization:** Matplotlib, Seaborn, PowerBI
-- **Model Development:** Scikit-learn
-- **Machine Learning Models:** Expertise in Regression, Classification, and Time Series Forecasting
+- **Data Analytics:** MySQL, Python (Pandas, NumPy, Statsmodels), R (dplyr), SPSS
+- **Data Visualization:** Matplotlib, Seaborn, PowerBI, R(ggplot2)
+- **Model Development:** Scikit-learn, R (Forecast)
+- **Machine Learning Models:** Regression, Classification, and Time Series Forecasting
 
 
 ## Projects
 
 
-| Category | Description | Highlighted Projects | Tools | Status |
-|----------|-------------|------------------|--------------|--------|
-| Data Analytics | Projects focused on analysing datasets to extract insights and inform business strategy. | [E-commerce Analytics](./E-commerce%20Analytics)| MySQL | In Progress |
-| Data Visualisations | Creation of visual representations of data to communicate information clearly and efficiently. | Dashboard Design, Trend Reporting | Power BI, Tableau | Planned |
-| Data Science | Application of statistical and machine learning methods to solve complex business problems. | [Used Car Prices Prediction in Myanmar](./Used%20Car%20Price%20Prediction%20in%20Myanmar)| Python | In Progress |
+| Category | Highlighted Projects | Tools | Status |
+|----------|------------------|--------------|--------|
+| Data Analytics | [E-commerce Analytics](./E-commerce%20Analytics)| MySQL | In Progress |
+| Data Visualisations | Dashboard Design, Trend Reporting | Power BI, Tableau | Planned |
+| Data Science | [Used Car Prices Prediction in Myanmar](./Used%20Car%20Price%20Prediction%20in%20Myanmar)| Python | In Progress |
 
 
 Feel free to explore my projects and reach out if you're interested in collaborating!
