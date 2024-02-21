@@ -1,5 +1,5 @@
-                                                                                                                        # Khin Yadanar Lin's Portfolio
-                                                                                                                        [![LinkedIn][linkedin-shield]][linkedin-url]
+# Khin Yadanar Lin's Portfolio
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 ...
 
