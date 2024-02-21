@@ -18,7 +18,7 @@
 - **Data Analytics:** MySQL, Python (Pandas, NumPy, Statsmodels), R (dplyr), SPSS
 - **Data Visualization:** Matplotlib, Seaborn, PowerBI, R(ggplot2)
 - **Model Development:** Scikit-learn, R (Forecast)
-- **Machine Learning Models:** Regression, Classification, and Time Series Forecasting
+- **Machine Learning Models:** Regression, Casual Inference, Classification, and Time Series Forecasting
 
 
 ## Projects
