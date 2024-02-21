@@ -13,9 +13,9 @@ This portfolio showcases a diverse collection of personal and freelance projects
 
 | Category | Description | Highlighted Projects | Tools | Status |
 |----------|-------------|------------------|--------------|--------|
-| Data Analytics | Projects focused on analysing datasets to extract insights and inform business strategy. | Exploratory Data Analysis, Sales Analysis, Product and User Behaviour Analysis | MySQL, Excel | In Progress |
+| Data Analytics | Projects focused on analysing datasets to extract insights and inform business strategy. | E-commerce Analytics | MySQL, Excel | In Progress |
 | Data Visualisations | Creation of visual representations of data to communicate information clearly and efficiently. | Dashboard Design, Trend Reporting | Power BI, Tableau | Planned |
-| Data Science | Application of statistical and machine learning methods to solve complex business problems. | A/B Testing, Predictive Modelling, Time Series Forecasting| Python, R | Coming Soon |
+| Data Science | Application of statistical and machine learning methods to solve complex business problems. | Used Car Price Prediction in Myanmar| Python, R | In Progress |
 
 
 Feel free to explore my projects and reach out if you're interested in collaborating!
