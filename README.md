@@ -1,12 +1,25 @@
 # Khin Yadanar Lin's Portfolio 
 
-## Background
+### 🔍 About Me:
 
-Hello and welcome to my portfolio.
+🌟 I'm an experienced analytics professional with a rich background in research, analytics, and consulting. Currently on an exciting journey to pivot my career into data science and analytics, with a keen focus on product and marketing analytics. Leveraging my previous experience, my ultimate aim is to craft impactful business solutions through the power of big data, covering the full spectrum of descriptive, prescriptive, and predictive analytics.
 
-I have over eight years of experience in **Business Strategy, Market Research, and Analytics** with a focus on consumer behaviours and market analysis. My educational background includes a Bachelor’s in Business Management and a Master’s in Business Analytics. After years of delving into data collection and statistical analysis of survey data, I've come to recognise the immense power of data in driving business value. This realisation propelled me to explore beyond conventional analysis, seeking out more sophisticated tools and techniques. Now, as I transition into a data science career, I'm actively looking for job opportunities where I can apply these advanced data tools to tackle real-world business issues.
+### 🛠 Skills & Learning:
 
-This portfolio showcases a diverse collection of personal and freelance projects undertaken as part of online courses, various data challenges from platforms like Maven Analytics and Kaggle, and independent contracts. The projects are organised into three distinct categories: Data Analytics, Data Visualisations, and Data Science. In these projects, I predominantly employ MySQL, R, Python, and Power BI to demonstrate versatility and depth in my analytical approach. I am also open to learning new tools and I am constantly working to improve my tech stack.
+💡 I'm in the process of sharpening my coding skills via personal projects, data challenges on platforms like Kaggle and Maven Analytics, and through independent contracts. Always eager to learn new tools and technologies, I'm on a constant quest to enhance my tech stack.
+
+### 🎯 Goals for This Year:
+
+- Dive deeper into model deployment in cloud environments.
+- Explore advanced machine learning techniques in deep learning and NLP to broaden my understanding and application of data science.
+
+### 🔧 Analytics Tools & Technologies:
+
+- **Data Analytics:** MySQL, Python (Pandas, NumPy, Statsmodels), SPSS, R (Regression, ARIMA Forecasting)
+- **Data Visualization:** Matplotlib, Seaborn, PowerBI
+- **Model Development:** Scikit-learn
+- **Machine Learning Models:** Expertise in Regression, Classification, and Time Series Forecasting
+
 
 ## Projects
 
