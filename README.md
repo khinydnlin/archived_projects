@@ -9,6 +9,8 @@
 [gmail-shield]: https://img.shields.io/badge/Gmail--red?style=social&logo=Gmail
 [gmail-url]: mailto:khinydnlin@gmail.com
 
+<br>
+
 ### 🔍 About Me:
 
 🌟 I'm an experienced analytics professional with a rich background in research, analytics, and consulting. Currently on an exciting journey to pivot my career into data science and analytics, with a keen focus on product and marketing analytics. Leveraging my previous experience, my ultimate aim is to craft impactful business solutions through the power of big data, covering the full spectrum of descriptive, prescriptive, and predictive analytics.
