@@ -1,5 +1,5 @@
 # Used Car Price Prediction
-### Note: The dataset presented in the portfolio was modified to preserve the data privacy and confidentiality of the client.
+*Note*: The dataset presented in the portfolio was modified to preserve the data privacy and confidentiality of the client.
 
 ## Objectives
 
