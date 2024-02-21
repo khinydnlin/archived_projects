@@ -15,7 +15,7 @@ This portfolio showcases a diverse collection of personal and freelance projects
 |----------|-------------|------------------|--------------|--------|
 | Data Analytics | Projects focused on analysing datasets to extract insights and inform business strategy. | E-commerce Analytics | MySQL, Excel | In Progress |
 | Data Visualisations | Creation of visual representations of data to communicate information clearly and efficiently. | Dashboard Design, Trend Reporting | Power BI, Tableau | Planned |
-| Data Science | Application of statistical and machine learning methods to solve complex business problems. | Used Car Price Prediction in Myanmar| Python, R | In Progress |
+| Data Science | Application of statistical and machine learning methods to solve complex business problems. | Used Car Price Prediction in Myanmar| Python | In Progress |
 
 
 Feel free to explore my projects and reach out if you're interested in collaborating!
