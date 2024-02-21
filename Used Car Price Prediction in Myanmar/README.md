@@ -6,7 +6,7 @@
 - To develop a predictive model for estimating second-hand car prices in Myanmar's market.
 - Address the gap in car-selling platforms by providing a data-driven price recommendation system.
 
-## Outcomes
+## Impacts
 
 - Successfully delivered a model with a Mean Absolute Error (MAE) of USD 2,222 and an R-squared (R²) value of 0.85.
 - Contributed to the decision-making process of sellers and buyers by offering a transparent and data-informed pricing mechanism, potentially leading to a more balanced and fair marketplace.
