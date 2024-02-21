@@ -1,5 +1,4 @@
 # Khin Yadanar Lin's Portfolio
-<br>
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Gmail][gmail-shield]][gmail-url]
 
