@@ -1,5 +1,5 @@
 # Used Car Price Prediction
-*Note*: The dataset presented in the portfolio was modified to preserve the data privacy and confidentiality of the client.
+*Note*: The dataset presented in the portfolio was modified to preserve the data privacy and confidentiality of the client. This project was conducted before the pandemic and hence, may not reflect the current automotive market in Myanmar.
 
 ## Objectives
 
