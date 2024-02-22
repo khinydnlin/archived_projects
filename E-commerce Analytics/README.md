@@ -5,8 +5,8 @@ This project, completed as a part of the Advanced MySQL Data Analysis course fro
 
 ## Objectives
 
--- **Web/Channel Analytics**: Measure user behaviours and evaluate the effectiveness of marketing campaigns to optimise sales and user experience
+- **Web/Channel Analytics**: Measure user behaviours and evaluate the effectiveness of marketing campaigns to optimise sales and user experience
 
--- **Product Analytics**: Assess the performance of products such as identifying best-selling items, success of new product launches, and cross-sell opportunities
+- **Product Analytics**: Assess the performance of products such as identifying best-selling items, success of new product launches, and cross-sell opportunities
 
--- **User Behaviour Analytics**: Examine how users interact with products/services, including their purchasing patterns, engagement levels
+- **User Behaviour Analytics**: Examine how users interact with products/services, including their purchasing patterns, engagement levels
