@@ -62,14 +62,14 @@ The data was manually collected from the major car brokers in the market because
 
 - For Linear regression, it was found that the model comformed to primary assumptions: linearity, indepedence of residuals (with Durbin Watson test score between 1.5 and 2.5), improved normality after log transformation, and homosdeasticity with randomly scattered residuals. However, some multicollinearity issues were also identified. So, Ridge and Lasso regularisation were explored. Prior to conducting regularisation, it was ensured that the training data and test data were standardised properly.
 
-Cross-validation Results
+**Cross-validation Results**
 
-| ML Models        | R2    | MAE  |
-|------------------|-------|------|
-| Linear Regression| 0.829 | 2,520|
-| Ridge Regression | 0.834 | 2,363|
-| Lasso Regression | 0.749 | 2,714|
-| Random Forest    | 0.892 | 1,624|
+| ML Models        | R2    | MAE (USD) |
+|------------------|-------|-----------|
+| Linear Regression| 0.829 | 2,520     | 
+| Ridge Regression | 0.834 | 2,363     |
+| Lasso Regression | 0.749 | 2,714     |
+| Random Forest    | 0.892 | 1,624     |
 
 Due to the lowest MAE scores of Random Forest, the Random Forest model was selected as final model to fit on the test data.
 
