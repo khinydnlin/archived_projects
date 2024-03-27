@@ -8,7 +8,8 @@ This project was carried out as part of freelance contract for one of the automo
 ### Skills Used
 * Data Collection
 * Linear Regression
-* Regularised Linear Regression (Lasso, Ridge)
+* Ridge Regression
+* Lasso Regression
 * Random Forest
 
 ### Technologies
