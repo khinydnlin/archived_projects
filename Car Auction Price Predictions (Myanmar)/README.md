@@ -85,6 +85,6 @@ The final score on test set is R2 - 0.834, MAE - 1,921
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data is available [here] within this repo.   
-3. Data processing/transformation scripts are being kept [here](Car%20Auction%20Price%20Predictions%20(Myanmar)/Car%20Auction%20Price%20Predictions.ipynb).
+3. Data processing/transformation scripts are being kept [here](https://github.com/khinydnlin/portfolio/blob/main/Car%20Auction%20Price%20Predictions%20(Myanmar)/Car%20Auction%20Price%20Predictions.ipynb)
 
 
