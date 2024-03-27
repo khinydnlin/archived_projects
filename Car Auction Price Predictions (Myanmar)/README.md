@@ -38,7 +38,7 @@ The data was manually collected from the major car brokers in the market because
 
 ### Machine Learning Model Development 
 
-### Insights from Exploratory Data Analysis
+#### Insights from Exploratory Data Analysis
 
 - Toyota is likely to dominate the car market which aligns with general observations of Toyota having the largest market share in the country.
 - In terms of prices, there is a significant variation based on car brands and car models, with the Toyota brand exhitbiting the highest car price.
@@ -48,13 +48,13 @@ The data was manually collected from the major car brokers in the market because
 - Although it was expected that the prices would be determined by age and mileage, correlation results suggest that the resale values have weak direct relationships with these features. Interesingly, data visualization suggests that age seems to be a secondary influential factor after the car brand and model. This indicates the potential non-linear relationship between the car prices and available features.
   
 
-### Feature Engineering
+#### Feature Engineering
 
 - The data are right skewed. Hence, a log transformation was used to achieve a normal distribution.
 - To reduce the dimensionality of the features, the car brands were regrouped into three groups: high-end brands (Toyota) , mid-range brands (Honda, Nissan and Mitsubishi), and Low-end brands (Suzuki and Daihatsu). Note that this grouping was determined based on the price distributions in the dataset.
 - Similarly, I also regrouped the colours into two groups: black and others, as the black colour seems to be the main differentiator. I also combined the 'semi-auto' and 'manual' into one group.
 
-### Model Exploration
+#### Model Exploration
 
 - As a baseline model, a Linear Regression model was chosen for comparison purposes. Since a non-linearity was also detected, a Random Forest model was explored to uncover complex patterns.
 
