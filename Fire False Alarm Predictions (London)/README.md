@@ -28,7 +28,7 @@ This project intends to address this issue by leveraging Machine Learning to det
 
 ### Data Sources
 
-The data was manually collected from the major car brokers in the market because of the lack of public data on resale prices. The following featuers were collected:
+The dataset is a public data which was obtained from [London Fire Brigade Incident Records](https://data.london.gov.uk/dataset/london-fire-brigade-incident-records).
 
 | Data                  |
 | ----------------------|
