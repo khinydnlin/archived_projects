@@ -26,6 +26,7 @@ This project, completed as a part of the Advanced MySQL Data Analysis course fro
    - [Web Analytics](https://github.com/khinydnlin/portfolio/blob/main/E-commerce%20Analytics/1.%20Channel%20Analytics%20-%20E-Commerce.ipynb)
    - [Product Analytics](https://github.com/khinydnlin/portfolio/blob/main/E-commerce%20Analytics/2.%20Product%20Analytics%20-%20E-commerce.ipynb)
    - [User Behaviour Analytics](https://github.com/khinydnlin/portfolio/blob/main/E-commerce%20Analytics/3.%20User%20Behaviour%20Analytics%20-%20E-commerce.ipynb)
+     
 2. Data Description
 
 | Tables                  | Columns              |
