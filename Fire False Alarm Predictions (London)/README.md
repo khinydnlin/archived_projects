@@ -21,7 +21,7 @@ This project intends to address this issue by leveraging Machine Learning to det
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data is available [here](https://github.com/khinydnlin/portfolio/blob/main/Car%20Auction%20Price%20Predictions%20(Myanmar)/dataset.csv) within this repo.   
-3. Data processing and modelling scripts are documented in a [Jupyter notebook](https://github.com/khinydnlin/portfolio/blob/main/Car%20Auction%20Price%20Predictions%20(Myanmar)/Car%20Auction%20Price%20Predictions.ipynb)
+3. Data processing and modelling scripts are documented in a [Google Colab Notebook](https://github.com/khinydnlin/portfolio/blob/main/Fire%20False%20Alarm%20Predictions%20(London)/Fire%20False%20Alarm%20Predictions%20London%202023.ipynb). Click on the Google Colab sign at the top of the notebook to view the entire document.
 4. The project findings and other details can be found below:
 
 ## Project Description
