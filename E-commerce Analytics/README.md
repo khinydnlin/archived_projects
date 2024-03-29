@@ -21,8 +21,19 @@ This project, completed as a part of the Advanced MySQL Data Analysis course fro
 * MySQL
 
 ## Getting Started
+ 
+1. Data analysis scripts are documented in three separate notebooks:
+   - Web Analytics
+   - Product Analytics
+   - User Behaviour Analytics (https://github.com/khinydnlin/portfolio/blob/main/Fire%20False%20Alarm%20Predictions%20(London)/Fire%20False%20Alarm%20Predictions%20London%202023.ipynb). Click on the Google Colab sign at the top of the notebook to view the entire document.
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is available [here](https://github.com/khinydnlin/portfolio/blob/main/Fire%20False%20Alarm%20Predictions%20(London)/dataset.zip) within this repo.   
-3. Data processing and modelling scripts are documented in a [Google Colab Notebook](https://github.com/khinydnlin/portfolio/blob/main/Fire%20False%20Alarm%20Predictions%20(London)/Fire%20False%20Alarm%20Predictions%20London%202023.ipynb). Click on the Google Colab sign at the top of the notebook to view the entire document.
+2. Data Description
 
+| Tables                  | 
+|-------------------------|
+| order_item_refunds      |
+| order_items             |
+| orders                  |
+| products                |
+| website_pageviews       |
+| website_sessions        |
