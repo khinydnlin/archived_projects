@@ -30,96 +30,51 @@ This project intends to address this issue by leveraging Machine Learning to det
 
 The dataset is a public data which was obtained from [London Fire Brigade Incident Records](https://data.london.gov.uk/dataset/london-fire-brigade-incident-records).
 
-| Data                  |
-| ----------------------|
-| car brand             |
-| car make              |
-| engine power          | 
-| mileage in km         |  
-| colour                |
-| steering position     |
-| transimission type    |
-| fuel type             |
-| car body type         |
-| price in MMK          |
-| price in USD          |
-
 ### Machine Learning Model Development 
 
 #### Data Cleaning
 
-Original dataset has 39 columns in total. Not all of the available features in the dataset are suitable for our prediction model. When cleaning the data, we take the following factors into account: 
+The original dataset comprises 39 columns in total. However, not all features are suitable for our prediction model. When cleaning the data, we considered the following factors:
 
-1. Data Leakage
+- Data Leakage
+Data leakage can occur if we include variables that may not be available at the prediction time. The dataset contains some features collected after the incident, such as the fire rescue team's attendance time and the number of pumps attending. As such, we removed 12 features from the dataset to prevent data leakage.
 
-Data leakage can occur when we include the variables that may not be available at the time of predicting. The dataset consists of some features that seem to be collected after the incident happened. These features include details of the incidents such as attendance time of the fire rescue team, number of pumps attending, etc. In total, we removed 12 features from the dataset in the initial stage.
+- Missing Data
+We observed that some features have extremely high rates of missing values. Upon further analysis, we identified two types of missing values. Some are due to the data's nature (e.g., one feature is linked to another, causing not-applicable values). For the second category, we evaluated whether to use imputation methods. We decided not to include features with more than 60% missing values.
 
-2. Missing Data
+- Granularity
+Despite the high proportion of missing values, the dataset contains detailed information. However, not all granular details are necessary, as they can lead to overfitting. For instance, the dataset includes 16 geographical features, from borough level to detailed postcodes, which may not all be relevant.
 
-Some features have extremely high missing values. Based on further analysis, there are two types of missing values. Some missing values are present due to the nature of the data (for example, one feature is linked to another feature, causing not-applicable missing values). For the second category of missing values, we investigated further whether we should use imputation methods to replace null values or not. If the number of missing values account for more than 60% of the data, we decide not to include them. 
+- Features with Potential Predictive Power
+Desk research indicated that the majority of false alarms are initiated by automatic false alarms (AFA), with rates varying by property type.
 
-3. Granularity
+#### Exploratory Data Analysis (EDA)
+We performed two primary types of analyses:
 
-Although the proportion of missing values is high, the dataset has a number of detailed information. We might not need all the granular details as it can only lead to overfitting. For example, for location aspect alone, the dataset has 16 geo features - from the borough level to detailed postcodes. 
+- Time Series Analysis: We transformed the datetime column into time-series formats (month, day of the week, day, hour) to conduct a time series analysis. Although incidents vary over time, there was no significant difference in temporal patterns between false alarms and actual incidents.
 
-4. Features with potential predictive power
+- Location Analysis: We focused on features with few missing values and removed granular data such as location reference numbers (UPRN, USRN, BoroughCode, postcode). We retained features like Borough Names and Easting and Northing coordinates.
 
-Lastly, based on desk research, the majority of false alarms tend to be initiated by AFA (automatic false alarms). The rate of false alarms also tend to be varied by the property types.
-
-EDA
-
-Primarily, two types of analyses were performed:
-
-Time Series Analysis
-
-First, we transformed the datetime column into time-series data: month, day of the week, day, hour. However, although the incidents are largely differed depending on time frame, not much difference was observed between the temporal patterns of false alarms and actual incidents. 
-
-Location Analysis
-
-We filtered the ones with no missing values. Among them, granular data such as reference numbers like UPRN, USRN, BoroughCode, and postcode details are also removed as they won't provide additional information to the model.We selected the features with few missing values: Borough Names, Easting and Northing (projected coordinate system).
-
-These are the top 5 locations in London with the highest rate of false alarms:
-
-- Central London area,
-- Westminster,
-- Kengsington and Chelsea,
-- Hammersmith and Fulham
-- Camden
-
-This is in line with the property types where non-residential (office,schools,police station) and other residentiall (hotels,uni accomodations) have the highest false alarms rates.
+- The top locations with highest false alarm rates are City of London, Westminster, Kensington and Chelsea, Hammersmith and Fulham, and Camden. This is aligned with the finding that non-residential properties like offices, schools, and hotels, which have higher false alarm rates compared to private residential areas since such neighborhoods are considered central areas with public properties. Out of all the False Alarms, 79% of them are originated from AFA. The remaining ones are assumed to be initiated by humans.
 
 #### Data Preprocessing and Feature Engineering
+Given the fact the majority of false alarms come from AFA, source of call/incident seem to have a high influence on the false alarm. However, the dataset does not have an explicit column that shows the source of call. Therefore, we created a new feature called 'source  of call' using an assumption that the incidents that are not explicity categorised/mentioned as AFA belong to non-AFA. However, this assumption may have pitfalls as for actual incidents, the dataset does not have information on whether it was originated from AFA or humans.
 
-As the dataset does not include 'source of call' directly, we create this feature by inferring to another feature that includes detailed information of the incident such as good intent, bad intent,primary fire, secondary fire, AFA. It was straightforward to extract AFA calls from this feature but other types of incidents do not have information about the origin of call. For the purpose of this project, we assume 'non-AFA' for the remaining categories due to lack of data. However, this may not reflect the real-world scenario as actual incidents can be initiated from AFA as well. 
+The target variable (false alarms) constituted about 50% of the dataset, so class imbalance was not an issue.
 
-The target variable (false alarms) made up about 50% of the dataset. So, we did not need to address the class imbalance issues. 
-
-#### Model Exploration
-
-- We aim to achieve high precision rates as we do not accidentally miss the actual incidents.
-- We explored four models:
-
-- Baseline Logistic Regression
-- KNN
-- Gaussian Naive Bayes
-- Random Forest
-
-As KNN and Random Forest achieved the highest precision rates, we further tuned those two models to improve the model. The following is the final performance on test dataset:
-
+#### Model Exploration and Selection
+We aimed for high precision rates to minimize missing actual incidents. We explored four models: Baseline Logistic Regression, KNN, Gaussian Naive Bayes, and Random Forest. KNN and Random Forest showed the highest precision, which we then tuned for improved performance. The final test dataset performance is as follows:
 
 | ML Models           | Precision  | Recall    | F1 Score  | Accuracy |
 |---------------------|------------|-----------|-----------|----------|
 |KNN                  | 0.99       | 0.80      | 0.88      | 0.89     |
 |Random Forest        | 0.99       | 0.80      | 0.89      | 0.90     |
 
+#### Further Improvement and Challenges
 
-## Further Improvement and Challenges
+Data availability remains a challenge, particularly the lack of 'source of call' information for actual incidents despite it being the major predictor. This limitation could introduce biased in our model because of the assumption used in feature engineering. Moreover, geo data could benefit from further feature engineering, such as creating new features that could indicate the likelihood of false alarms.
 
-- Data Availability - Despite the source of call being the strong predictor, the dataset lacks information of source of call for various types of incidents. Hence, our assumption may have flaws, which may introduce to data leakage. 
-
-- Feature Engineering for geo data: the geo data can have more feature enigneering by using clustering techniques. In this project, we directly used the northing and easting data as we have broader categories such as boroughs and wards already. 
-
-- Generalisability : As feature importance shows that source of call has the highest importance, we experimented with and without that feature to make sure the model does not rely on this feature alone. It is possible that our models achieve the extremely high precision rates given that the vast majority of False alarms come from AFA alone. This makes the model able to distinguish the classes easily. However, it is important to note that the proportion of AFA calls in false alarms may variate year by year. Therefore, to avoid overfitting, data from previous years should be trained so that the model does not assume all AFA calls are false alarms. 
+Regarding generalisability, the 'source of call' showed high importance. We tested models with and without this feature to ensure reliance isn't on this feature alone. Given that most false alarms stem from AFA, the models could easily distinguish classes, potentially leading to overfitting. To mitigate this, we recommend training on data from previous years to accommodate the variability in AFA call proportions as false alarms.
 
 
 
