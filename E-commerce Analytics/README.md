@@ -1,12 +1,28 @@
-## Maven Fuzzy Factory E-commerce Data Analysis with MySQL
 
-## Project Description
-This project, completed as a part of the Advanced MySQL Data Analysis course from Maven Analytics, explores the data-driven operations of Maven Factory, an e-commerce platform. It encompasses a thorough analysis of a relational dataset, including customer order information, marketing campaign and website traffic data. Utilizing complex MySQL queries, I've dissected commercial activities to identify key trends, assess business growth, and enhance digital marketing strategies—essential for strategic decision-making. This repository chronicles the analytical process and provides valuable insights critical to understanding the factors behind the e-commerce platform's success.
+# Data Analytics for an E-commerce Platform
 
-## Objectives
+#### -- Project Status: [Completed]
 
-- **Web/Channel Analytics**: Measure user behaviours and evaluate the effectiveness of marketing campaigns to optimise sales and user experience
+## Project Objective
+This project, completed as a part of the Advanced MySQL Data Analysis course from Maven Analytics, explores the data-driven operations of an e-commerce platform. It encompasses a thorough analysis of a SQL-based relational dataset, including customer order information, marketing campaign and website traffic data. Utilizing complex MySQL queries, I've dissected commercial activities to identify key trends, assess business growth, and enhance digital marketing strategies—essential for strategic decision-making. The primary objectives of the analysis are to:
 
-- **Product Analytics**: Assess the performance of products such as identifying best-selling items, success of new product launches, and cross-sell opportunities
+- Measure user behaviours and evaluate the effectiveness of marketing campaigns to optimise sales and user experience
 
-- **User Behaviour Analytics**: Examine how users interact with products/services, including their purchasing patterns, engagement levels
+- Assess the performance of products such as identifying best-selling items, success of new product launches, and cross-sell opportunities
+
+- Examine how users interact with products/services, including their purchasing patterns, engagement levels
+
+### Skills Used
+* Web/Channel Analytics
+* Product Analytics
+* User Behaviour Analytics
+
+### Technologies
+* MySQL
+
+## Getting Started
+
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+2. Raw Data is available [here](https://github.com/khinydnlin/portfolio/blob/main/Fire%20False%20Alarm%20Predictions%20(London)/dataset.zip) within this repo.   
+3. Data processing and modelling scripts are documented in a [Google Colab Notebook](https://github.com/khinydnlin/portfolio/blob/main/Fire%20False%20Alarm%20Predictions%20(London)/Fire%20False%20Alarm%20Predictions%20London%202023.ipynb). Click on the Google Colab sign at the top of the notebook to view the entire document.
+
