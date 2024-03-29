@@ -25,8 +25,7 @@ This project, completed as a part of the Advanced MySQL Data Analysis course fro
 1. Data analysis scripts are documented in three separate notebooks:
    - [Web Analytics](https://github.com/khinydnlin/portfolio/blob/main/E-commerce%20Analytics/1.%20Channel%20Analytics%20-%20E-Commerce.ipynb)
    - [Product Analytics](https://github.com/khinydnlin/portfolio/blob/main/E-commerce%20Analytics/2.%20Product%20Analytics%20-%20E-commerce.ipynb)
-   - User Behaviour Analytics (https://github.com/khinydnlin/portfolio/blob/main/Fire%20False%20Alarm%20Predictions%20(London)/Fire%20False%20Alarm%20Predictions%20London%202023.ipynb). Click on the Google Colab sign at the top of the notebook to view the entire document.
-
+   - [User Behaviour Analytics](https://github.com/khinydnlin/portfolio/blob/main/E-commerce%20Analytics/3.%20User%20Behaviour%20Analytics%20-%20E-commerce.ipynb)
 2. Data Description
 
 | Tables                  | 
