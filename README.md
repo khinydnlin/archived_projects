@@ -1,7 +1,11 @@
-# Portfolio Repository
+# About Me
 
-Welcome to my portfolio repository, where I showcase a curated collection of my work in data analytics, visualization, and data science. Here, you'll find a diverse range of projects that demonstrate my hands-on experience with extracting insights from data, building predictive models, and designing compelling data visualizations :)
+🌟 Experienced data science and analytics professional with 8 years of experience in quantitative research, analytics and management consulting. I am passionate about delivering impactful business solutions through the power of big data technologies, and data science techniques. In my previous roles, I performed a range of quantitative analyses:
 
-This repository serves as a testament to my journey in the field of data science and my continuous effort to push the boundaries of data-driven decision-making.
+- Statistical modelling - cluster analysis, price sensitivity analysis, linear regression modelling, market analysis to uncover market trends and consumer behaviours 
+- Experimental desgin using causal inference - Difference-in-Differences method to measusre the impacts of products and services
+- Survey data analysis 
+- Data visualization and reporting
+- Financial modelling and market sizing
 
-Feel free to explore each project, review the code, and reach out if you have any questions or feedback.
+Sectors:Consumer Services (F&B), Automotive, Real Estate, Financial Services, Agriculture 
