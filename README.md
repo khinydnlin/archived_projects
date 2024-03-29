@@ -8,4 +8,6 @@
 - Data visualization and reporting
 - Financial modelling and market sizing
 
-Sectors:Consumer Services (F&B), Automotive, Real Estate, Financial Services, Agriculture 
+Sectors:Consumer Services (F&B), Automotive, Real Estate, Financial Services, Agriculture
+
+In addition to my extensive experience, I am actively expanding my expertise into machine learning domains.
