@@ -1,4 +1,4 @@
-# Fire False Alarm Predictions (London)
+# False Fire Alarms Detection Using Classification Alogrithms
 
 #### -- Project Status: [Completed]
 
