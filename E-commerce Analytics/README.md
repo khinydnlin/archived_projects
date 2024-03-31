@@ -4,7 +4,7 @@
 #### -- Project Status: [Completed]
 
 ## Project Objective
-This project, completed as a part of the Advanced MySQL Data Analysis course from Maven Analytics, explores the data-driven operations of an e-commerce platform. It encompasses a thorough analysis of a SQL-based relational dataset, including customer order information, marketing campaign and website traffic data. Utilizing complex MySQL queries, I've dissected commercial activities to identify key trends, assess business growth, and enhance digital marketing strategies—essential for strategic decision-making. The primary objectives of the analysis are to:
+This project, completed as a part of the Advanced MySQL Data Analysis course, explores the data-driven operations of an e-commerce platform. It encompasses a thorough analysis of a SQL-based relational dataset, including customer order information, marketing campaign and website traffic data. Utilizing complex MySQL queries, I've dissected commercial activities to identify key trends, assess business growth, and enhance digital marketing strategies—essential for strategic decision-making. The primary objectives of the analysis are to:
 
 - Measure user behaviours and evaluate the effectiveness of marketing campaigns to optimise sales and user experience
 
