@@ -20,8 +20,8 @@ This project intends to address this issue by leveraging Machine Learning to det
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is available [here](https://github.com/khinydnlin/portfolio/blob/main/Fire%20False%20Alarm%20Predictions%20(London)/dataset.zip) within this repo.   
-3. Data processing and modelling scripts are documented in a [Google Colab Notebook](https://github.com/khinydnlin/portfolio/blob/main/False%20Fire%20Alarms%20Detection%20(London%20Fire%20Brigade)/%20False%20Fire%20Alarms%20Detection.ipynb). Click on the Google Colab sign at the top of the notebook to view the entire document.
+2. Raw Data is available [here](https://github.com/khinydnlin/portfolio/blob/main/False%20Fire%20Alarms%20Detection%20(London%20Fire%20Brigade)/dataset.zip) within this repo.   
+3. Data processing and modelling scripts are documented in a [Google Colab Notebook](https://github.com/khinydnlin/portfolio/blob/main/False%20Fire%20Alarms%20Detection%20(London%20Fire%20Brigade)/%20False%20Fire%20Alarms%20Detection.ipynb). Click on the **Google Colab** icon at the top of the notebook to view the entire document.
 4. The project findings and other details can be found below:
 
 ## Project Description
