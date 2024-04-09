@@ -31,33 +31,30 @@ The data challenge consists of two tracks: patient-level track 1 (1.2 million re
 
 #### Data Preprocessing
 
-Since the participants in the program were self-selected (not randomly assigned), we have to choose a method that is compatible with this situation. A DiD method is a widely used quasi-experimental method for experiments where randomized controlled trials are not feasible due to practicality and ethical issues. However, DiD method relies on one key assumption - parellel trend observations: unobserved differences between the control and treatment groups are the same over the time in the absence of intervention.Therefore, firstly, we checked if the dataset is in line with this assumption:
+Since the participants in the program were self-selected (not randomly assigned), we have to choose a method that is compatible with this situation. A DiD method is a widely used quasi-experimental method for experiments where randomized controlled trials are not feasible due to practicality and ethical issues. However, DiD method relies on one key assumption - parellel trend observations: unobserved differences between the control and treatment groups are the same over the time in the absence of intervention.
+
+1. Firstly, we checked if the dataset is in line with this assumption:
 
 ![image](https://github.com/khinydnlin/portfolio/assets/145341635/c474e68f-a31e-44e7-801f-80cb85311697)
 
 Based on visual check, the trends appear to have a similar slope without significant divergences. 
 
-Secondly, we transformed the dataset into panel data in order to run a DiD regression.
+2. We transformed the dataset into panel data in order to run a DiD regression.
 
 **Outcome (Y) = &beta;<sub>0</sub> + &beta;<sub>1</sub> Time Period + &beta;<sub>2</sub> Treated + &beta;<sub>3</sub> (Time Period * Treated) + Error terms**
 
-| Variables        | Data Description                              | 
+| Key Variables    | Data Description                              | 
 |------------------|-----------------------------------------------|
 | post (Time)      | 1 = Post-intervention , 0 = Pre-intervention  | 
 | Z (Treated)      | 1 = Treatement        , 0 = Control           | 
+| Y (Expenditure)  | Continuous Data                               | 
 
-
-Data distribution
+3. We use log-transformation to handle Y due to skewed distribution. 
 
 ![image](https://github.com/khinydnlin/portfolio/assets/145341635/066a75b0-df0d-48d8-880d-83062d32a691)
 
-  
 
-#### Feature Engineering
 
-- The data are right skewed. Hence, a log transformation was used to achieve a normal distribution.
-- To reduce the dimensionality of the features, the car brands were regrouped into three groups: high-end brands (Toyota) , mid-range brands (Honda, Nissan and Mitsubishi), and Low-end brands (Suzuki and Daihatsu). Note that this grouping was determined based on the price distributions in the dataset.
-- Similarly, I also regrouped the colours into two groups: black and others, as the black colour seems to be the main differentiator. I also combined the 'semi-auto' and 'manual' into one group.
 
 #### Model Exploration
 
@@ -82,9 +79,6 @@ The final score on test set is R2 - 0.834, MAE - 1,921
 
 ## Challenges and Further Model Improvement
 
-- Data Availability : The dataset comprises only 500 data points, which is insufficient to cover all car models. This limitation constrains the model's ability to generalize across the full spectrum of vehicles.
-
-- Overfitting issues: There is a model performance gap (6%) between the test set and the training set. Despite efforts in parameter tuning to reduce overfitting, this gap persisted, likely due to the small sample size and imbalanced class distribution among car models. Given that Toyota models constitute the majority of the dataset, the model may struggle to generalize effectively to less represented or unseen models.
-
+- Heterogenous impacts: The nature of this intervention tends to introduce uneven impacts across different subgroups: for example, certain cohorts may result in increased expenditure while other cohorts may lead to lowered expenditures. Therefore, as a next step, subgroup analysis would be suitable to uncover the nuanced impacts as overall impact figure cannot capture these subtle differences across cohorts.
 
 
