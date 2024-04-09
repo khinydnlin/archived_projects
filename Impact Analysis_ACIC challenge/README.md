@@ -25,20 +25,8 @@ This project was carried out as an attempt to solve the [2022 data challenge fro
 
 The data was manually collected from the major car brokers in the market because of the lack of public data on resale prices. The following featuers were collected:
 
-| Data                  |
-| ----------------------|
-| car brand             |
-| car make              |
-| engine power          | 
-| mileage in km         |  
-| colour                |
-| steering position     |
-| transimission type    |
-| fuel type             |
-| car body type         |
-| price in MMK          |
-| price in USD          |
-*Note: 1 USD - 1,400 Myanmar Kyats (MMK) exchange rate was used
+![image](https://github.com/khinydnlin/portfolio/assets/145341635/dbd345d6-43cf-41ad-b31a-db3933e38179)
+
 
 ### Machine Learning Model Development 
 
