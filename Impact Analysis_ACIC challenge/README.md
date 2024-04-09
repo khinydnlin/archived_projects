@@ -3,7 +3,7 @@
 #### -- Project Status: [In-progress]
 
 ## Project Objective
-This project was carried out as an attempt to solve the [2022 data challenge from ACIC](https://acic2022.mathematica.org/). The goal of the analysis was to evaluate the nuanced impacts of policy interventions that aim to lower Medicare expenditure by using causal inference methods.
+This project was carried out as an attempt to solve the [2022 data challenge from ACIC](https://acic2022.mathematica.org/). The goal of the analysis was to evaluate the nuanced impacts of policy interventions that aim to lower Medicare expenditure by using causal inference methods. In this project, Differences-in-Differences(DiD) method was explored - the primary indicator is the rate of increased expenditure of treatement group should be lower than that of control group.
 
 ### Skills Used
 * Data Analysis
@@ -37,7 +37,7 @@ Since the participants in the program were self-selected (not randomly assigned)
 
 ![image](https://github.com/khinydnlin/portfolio/assets/145341635/c474e68f-a31e-44e7-801f-80cb85311697)
 
-Based on visual check, the trends appear to have a similar slope without significant divergences. 
+Based on visual check, the trends appear to have a similar slope without significant divergences. The treatement group tends to have slighlty higher expenditure compared to control groups. Moreover, the costs had risen during four years for both groups. Therefore, to guague the actual impacts, the slower rate of increased costs for treatement compared to control group could be an indicator of impact.
 
 2. We transformed the dataset into panel data in order to run a DiD regression.
 
@@ -53,7 +53,9 @@ Based on visual check, the trends appear to have a similar slope without signifi
 
 ![image](https://github.com/khinydnlin/portfolio/assets/145341635/066a75b0-df0d-48d8-880d-83062d32a691)
 
+#### Findings
 
+![R outputs](![image](https://github.com/khinydnlin/portfolio/assets/145341635/a752c00d-91c5-42fd-b664-58cc4c54499e)
 
 
 #### Model Exploration
