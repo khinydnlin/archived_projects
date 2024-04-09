@@ -74,7 +74,7 @@ Confusion Matrix
 
 ![image](https://github.com/khinydnlin/portfolio/assets/145341635/aa87f862-ecd9-40ca-a530-2c322dbf2f62)
 
-#### Further Improvement and Challenges
+### Further Improvement and Challenges
 
 Data availability remains a challenge, particularly the lack of 'source of call' information for actual incidents despite it being the major predictor. This limitation could introduce biased in our model because of the assumption used in feature engineering. Moreover, geo data could benefit from further feature engineering, such as creating new features that could indicate the likelihood of false alarms.
 
