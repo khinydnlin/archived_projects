@@ -55,32 +55,12 @@ Based on visual check, the trends appear to have a similar slope without signifi
 
 #### Findings
 
-(![R outputs](https://github.com/khinydnlin/portfolio/assets/145341635/a752c00d-91c5-42fd-b664-58cc4c54499e)
+![R outputs](https://github.com/khinydnlin/portfolio/assets/145341635/a752c00d-91c5-42fd-b664-58cc4c54499e)
 
-
-#### Model Exploration
-
-- As a baseline model, a Linear Regression model was chosen for comparison purposes. Since a non-linearity was also detected, a Random Forest model was explored to uncover complex patterns.
-
-- As a primary metric, the goal was to achieve a low Mean Absolute Error (MAE) value of 1,000 - 2,000 USD, which was equivalent to 15 - 30 lakhs MMK at the time.
-
-- For Linear regression, it was found that the model comformed to primary assumptions: linearity, indepedence of residuals (with Durbin Watson test score between 1.5 and 2.5), improved normality after log transformation, and homosdeasticity with randomly scattered residuals. However, some multicollinearity issues were also identified. So, Ridge and Lasso regularisation were explored. Prior to conducting regularisation, it was ensured that the training data and test data were standardised properly.
-
-**Cross-validation Results**
-
-| ML Models        | R2    | MAE (USD) |
-|------------------|-------|-----------|
-| Linear Regression| 0.829 | 2,520     | 
-| Ridge Regression | 0.834 | 2,363     |
-| Lasso Regression | 0.749 | 2,714     |
-| Random Forest    | 0.892 | 1,624     |
-
-Due to the lowest MAE scores of Random Forest, the Random Forest model was selected as final model to fit on the test data.
-
-The final score on test set is R2 - 0.834, MAE - 1,921
+According to results, the coefficient for 'Z1:post1' (interaction between treated and post-intervention period) is not statistically significant (p-value = .5975). This implies that, we cannot conclude that the intervention led to a statistically significant reduction in terms of the log of expenditures compared to the control group after controlling for other variables. 
 
 ## Challenges and Further Model Improvement
 
-- Heterogenous impacts: The nature of this intervention tends to introduce uneven impacts across different subgroups: for example, certain cohorts may result in increased expenditure while other cohorts may lead to lowered expenditures. Therefore, as a next step, subgroup analysis would be suitable to uncover the nuanced impacts as overall impact figure cannot capture these subtle differences across cohorts.
+However, the nature of this intervention tends to introduce uneven impacts across different subgroups: for example, certain cohorts may result in increased expenditure while other cohorts may lead to lowered expenditures. Therefore, as a next step, subgroup analysis would be suitable to uncover the nuanced impacts as overall impact figure cannot capture these subtle differences across cohorts.
 
 
