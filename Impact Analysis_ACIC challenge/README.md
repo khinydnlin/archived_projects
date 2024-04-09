@@ -55,7 +55,7 @@ Based on visual check, the trends appear to have a similar slope without signifi
 
 #### Findings
 
-![R outputs](![image](https://github.com/khinydnlin/portfolio/assets/145341635/a752c00d-91c5-42fd-b664-58cc4c54499e)
+(![R outputs](https://github.com/khinydnlin/portfolio/assets/145341635/a752c00d-91c5-42fd-b664-58cc4c54499e)
 
 
 #### Model Exploration
