@@ -25,19 +25,23 @@ This project was carried out as an attempt to solve the [2022 data challenge fro
 
 The data challenge consists of two tracks: patient-level track 1 (1.2 million records per dataset) and practice-level (aggregated data - 1.7 million records in total) track 1. For this project, 1,500 (3 datasets) samples were randomly extracted from Track 2 datasets to demonstrate the impact analysis.
 
-![image](https://github.com/khinydnlin/portfolio/assets/145341635/831cde0a-e117-463d-ac0e-9ed563454259)
-
-
+![image](https://github.com/khinydnlin/portfolio/assets/145341635/8b5b7e4a-6e56-4eb8-aceb-9e72e57ea459)
 
 ### Impact Analysis
 
 #### Data Preprocessing
 
-Since the participants in the program were self-selected (not randomly assigned), we have to choose a method that is compatible with this situation. A DiD method is a widely used quasi-experimental method for experiments where randomized controlled trials are not feasible due to practicality and ethical issues. However, DiD method relies on one key assumption - parellel trend observations: unobserved differences between the control and treatment groups are the same over the time in the absence of intervention.Therefore, firstly, we checked if the dataset followed the parellel trend:
+Since the participants in the program were self-selected (not randomly assigned), we have to choose a method that is compatible with this situation. A DiD method is a widely used quasi-experimental method for experiments where randomized controlled trials are not feasible due to practicality and ethical issues. However, DiD method relies on one key assumption - parellel trend observations: unobserved differences between the control and treatment groups are the same over the time in the absence of intervention.Therefore, firstly, we checked if the dataset is in line with this assumption:
 
-![image](https://github.com/khinydnlin/portfolio/assets/145341635/ff0d53e3-07b6-4ee2-a7fe-9f74ec0cc7d3)
+![image](https://github.com/khinydnlin/portfolio/assets/145341635/c474e68f-a31e-44e7-801f-80cb85311697)
 
-Data distribution of 
+Based on visual check, the trends appear to have a similar slope without significant divergences. 
+
+Secondly, we transformed the dataset into panel data in order to run a DiD regression.
+
+Outcome (Y) = &beta;<sub>0</sub> + &beta;<sub>1</sub> Time Period + &beta;<sub>2</sub> Treated + &beta;<sub>3</sub> (Time Period * Treated) + Error terms
+
+Data distribution
 
 ![image](https://github.com/khinydnlin/portfolio/assets/145341635/066a75b0-df0d-48d8-880d-83062d32a691)
 
