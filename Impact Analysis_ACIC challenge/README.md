@@ -7,7 +7,7 @@ This project was carried out as an attempt to solve the [2022 data challenge fro
 
 ### Skills Used
 * Data Analysis
-* Difference-in-Differences Method
+* Difference-in-Differences Method (DiD method)
 
 ### Technologies
 * R (plm package)
@@ -23,14 +23,24 @@ This project was carried out as an attempt to solve the [2022 data challenge fro
 
 ### Data Sources
 
-The data was manually collected from the major car brokers in the market because of the lack of public data on resale prices. The following featuers were collected:
+The data challenge consists of two tracks: patient-level track 1 (1.2 million records per dataset) and practice-level (aggregated data - 1.7 million records in total) track 1. For this project, 1,500 (3 datasets) samples were randomly extracted from Track 2 datasets to demonstrate the impact analysis.
 
 ![image](https://github.com/khinydnlin/portfolio/assets/145341635/dbd345d6-43cf-41ad-b31a-db3933e38179)
 
 
-### Machine Learning Model Development 
+### Impact Analysis
 
-#### Insights from Exploratory Data Analysis
+#### Data Preprocessing
+
+Since the participants in the program were self-selected (not randomly assigned), we have to choose a method that is compatible with this situation. A DiD method is a widely used quasi-experimental method for experiments where randomized controlled trials are not feasible due to practicality and ethical issues. However, DiD method relies on one key assumption - parellel trend observations: unobserved differences between the control and treatment groups are the same over the time in the absence of intervention.Therefore, firstly, we checked if the dataset followed the parellel trend:
+
+![image](https://github.com/khinydnlin/portfolio/assets/145341635/ff0d53e3-07b6-4ee2-a7fe-9f74ec0cc7d3)
+
+Data distribution of 
+
+![image](https://github.com/khinydnlin/portfolio/assets/145341635/066a75b0-df0d-48d8-880d-83062d32a691)
+
+
 
 - Toyota is likely to dominate the car market which aligns with general observations of Toyota having the largest market share in the country.
 - In terms of prices, there is a significant variation based on car brands and car models, with the Toyota brand exhitbiting the highest car price.
