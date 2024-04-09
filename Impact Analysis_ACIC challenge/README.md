@@ -39,20 +39,12 @@ Based on visual check, the trends appear to have a similar slope without signifi
 
 Secondly, we transformed the dataset into panel data in order to run a DiD regression.
 
-Outcome (Y) = &beta;<sub>0</sub> + &beta;<sub>1</sub> Time Period + &beta;<sub>2</sub> Treated + &beta;<sub>3</sub> (Time Period * Treated) + Error terms
+**Outcome (Y) = &beta;<sub>0</sub> + &beta;<sub>1</sub> Time Period + &beta;<sub>2</sub> Treated + &beta;<sub>3</sub> (Time Period * Treated) + Error terms**
 
 Data distribution
 
 ![image](https://github.com/khinydnlin/portfolio/assets/145341635/066a75b0-df0d-48d8-880d-83062d32a691)
 
-
-
-- Toyota is likely to dominate the car market which aligns with general observations of Toyota having the largest market share in the country.
-- In terms of prices, there is a significant variation based on car brands and car models, with the Toyota brand exhitbiting the highest car price.
-- Specifically, Toyota Alphard, Toyota Crown, Toyota Klugers had the highest resale prices after Nissan Quashqai make (this model was not representative due to having considerably smaller samples).
-- Black cars tend to have higher resale value compared to other colours.
-- SUV body types cars are more likely to have the highest resale prices,followed by vans and sedans.
-- Although it was expected that the prices would be determined by age and mileage, correlation results suggest that the resale values have weak direct relationships with these features. Interesingly, data visualization suggests that age seems to be a secondary influential factor after the car brand and model. This indicates the potential non-linear relationship between the car prices and available features.
   
 
 #### Feature Engineering
