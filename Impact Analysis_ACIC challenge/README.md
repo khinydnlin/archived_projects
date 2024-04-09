@@ -3,7 +3,7 @@
 #### -- Project Status: [In-progress]
 
 ## Project Objective
-This project was carried out as an attempt to solve the [2022 data challenge from ACIC](https://acic2022.mathematica.org/) The goal of the analysis was to evaluate the nuanced impacts of policy interventions that aim to lower Medicare expenditure by using causal inference methods.
+This project was carried out as an attempt to solve the [2022 data challenge from ACIC](https://acic2022.mathematica.org/). The goal of the analysis was to evaluate the nuanced impacts of policy interventions that aim to lower Medicare expenditure by using causal inference methods.
 
 ### Skills Used
 * Data Analysis
