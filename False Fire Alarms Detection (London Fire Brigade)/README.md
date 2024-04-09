@@ -70,6 +70,10 @@ We aimed for high precision rates to minimize missing actual incidents. We explo
 |KNN                  | 0.99       | 0.80      | 0.88      | 0.89     |
 |Random Forest        | 0.99       | 0.80      | 0.89      | 0.90     |
 
+Confusion Matrix
+
+![image](https://github.com/khinydnlin/portfolio/assets/145341635/aa87f862-ecd9-40ca-a530-2c322dbf2f62)
+
 #### Further Improvement and Challenges
 
 Data availability remains a challenge, particularly the lack of 'source of call' information for actual incidents despite it being the major predictor. This limitation could introduce biased in our model because of the assumption used in feature engineering. Moreover, geo data could benefit from further feature engineering, such as creating new features that could indicate the likelihood of false alarms.
