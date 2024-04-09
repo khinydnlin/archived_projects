@@ -6,8 +6,8 @@ library(lmtest)
 library(sandwich)
 
 #loading data
-data1 <- read.csv("C:.../Hospital Expenditures Data/acic_year_copy.csv") #replace with file path
-data2 <- read.csv("C:...Hospital Expenditures Data/acic_data_copy.csv") #replace with file path
+data1 <- read.csv("C://Hospital Expenditures Data/acic_year_copy.csv") #replace with file paths
+data2 <- read.csv("C://Hospital Expenditures Data/acic_data_copy.csv") #replace with file paths
 
 #merging two datases according instructions from data competition
 merged_data <- merge(data1,data2,by = "id.practice")
@@ -46,10 +46,23 @@ ggplot(average_data %>% filter(X3 == 0),aes(x=year, y= mean_expenditure, colour 
     color = 'Z')+
   geom_vline(xintercept = 2.5, linetype = "dashed", color = "darkorange") +
   scale_color_manual(values = c("navyblue", "red"),
-                      labels = c("Control", "Treatment"))
+                      labels = c("Control", "Treatment")) +
+  theme_minimal()+
+  theme(panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_rect(colour = "black", fill=NA))
 
 #checking distribution of outcome data
-ggplot(merged_data,aes(x=Y)) + geom_histogram(color='black',fill='lightblue')
+ggplot(merged_data,aes(x=Y)) + geom_histogram(color='black',fill='lightblue') +
+  labs(title='Histogram of Average Expenditure of Practices',
+       x = 'Expenditure',
+       y = 'No of practices')+
+  theme_minimal()+
+  theme(panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_rect(colour = "black", fill=NA))
 #outcome data is slightly right-skewed
 
 #transforming dataset into panel data
