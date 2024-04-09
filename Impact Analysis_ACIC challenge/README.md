@@ -25,7 +25,8 @@ This project was carried out as an attempt to solve the [2022 data challenge fro
 
 The data challenge consists of two tracks: patient-level track 1 (1.2 million records per dataset) and practice-level (aggregated data - 1.7 million records in total) track 1. For this project, 1,500 (3 datasets) samples were randomly extracted from Track 2 datasets to demonstrate the impact analysis.
 
-![image](https://github.com/khinydnlin/portfolio/assets/145341635/dbd345d6-43cf-41ad-b31a-db3933e38179)
+![image](https://github.com/khinydnlin/portfolio/assets/145341635/831cde0a-e117-463d-ac0e-9ed563454259)
+
 
 
 ### Impact Analysis
