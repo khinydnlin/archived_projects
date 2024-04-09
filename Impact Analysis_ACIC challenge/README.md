@@ -15,7 +15,7 @@ This project was carried out as an attempt to solve the [2022 data challenge fro
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is available within this repo. Get dataset 1 [here](https://github.com/khinydnlin/portfolio/blob/main/Impact%20Analysis_ACIC%20challenge/acic_data.csv) and [year_data](https://github.com/khinydnlin/portfolio/blob/main/Impact%20Analysis_ACIC%20challenge/acic_year.csv)
+2. Raw Data is available within this repo. Get dataset 1 [here](https://github.com/khinydnlin/portfolio/blob/main/Impact%20Analysis_ACIC%20challenge/acic_data.csv) and year_data [here](https://github.com/khinydnlin/portfolio/blob/main/Impact%20Analysis_ACIC%20challenge/acic_year.csv). Two files need to be merged by id.practice in order to run analysis.
 3. Data processing and modelling scripts are documented in a [Jupyter notebook](https://github.com/khinydnlin/portfolio/blob/main/Car%20Auction%20Price%20Predictions%20(Myanmar)/Car%20Auction%20Price%20Predictions.ipynb)
 4. The project findings and other details can be found below:
 
