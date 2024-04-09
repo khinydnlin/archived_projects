@@ -41,6 +41,12 @@ Secondly, we transformed the dataset into panel data in order to run a DiD regre
 
 **Outcome (Y) = &beta;<sub>0</sub> + &beta;<sub>1</sub> Time Period + &beta;<sub>2</sub> Treated + &beta;<sub>3</sub> (Time Period * Treated) + Error terms**
 
+| Variables        | Data Description                              | 
+|------------------|-----------------------------------------------|
+| post (Time)      | 1 = Post-intervention , 0 = Pre-intervention  | 
+| Z (Treated)      | 1 = Treatement        , 0 = Control           | 
+
+
 Data distribution
 
 ![image](https://github.com/khinydnlin/portfolio/assets/145341635/066a75b0-df0d-48d8-880d-83062d32a691)
