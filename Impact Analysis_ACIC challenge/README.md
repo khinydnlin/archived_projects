@@ -57,10 +57,10 @@ Based on visual check, the trends appear to have a similar slope without signifi
 
 ![R outputs](https://github.com/khinydnlin/portfolio/assets/145341635/a752c00d-91c5-42fd-b664-58cc4c54499e)
 
-According to results, the coefficient for 'Z1:post1' (interaction between treated and post-intervention period) is not statistically significant (p-value = .5975). This implies that, we cannot conclude that the intervention led to a statistically significant reduction in terms of the log of expenditures compared to the control group after controlling for other variables. 
+According to the results, the coefficient for 'Z1:post1' (interaction between treated and post-intervention period) is not statistically significant (p-value = .5975). This implies that, we cannot conclude that the intervention led to a statistically significant reduction in the log of expenditures compared to the control group after controlling for other variables. 
 
 ## Challenges and Further Model Improvement
 
-However, the nature of this intervention tends to introduce uneven impacts across different subgroups: for example, certain cohorts may result in increased expenditure while other cohorts may lead to lowered expenditures. Therefore, as a next step, subgroup analysis would be suitable to uncover the nuanced impacts as overall impact figure cannot capture these subtle differences across cohorts.
+However, the nature of this intervention tends to introduce uneven impacts across different subgroups: for example, certain cohorts may experience increased expenditure while other cohorts may see lowered expenditures. Therefore, as a next step, subgroup analysis would be appropriate to uncover the nuanced impacts as overall impact figure cannot capture these subtle differences across cohorts.
 
 
