@@ -3,7 +3,7 @@
 #### -- Project Status: [In-progress]
 
 ## Project Objective
-This project was carried out as an attempt to solve the [2022 data challenge from ACIC](https://acic2022.mathematica.org/). The goal of the analysis was to evaluate the nuanced impacts of policy interventions that aim to lower Medicare expenditure by using causal inference methods. In this project, Differences-in-Differences(DiD) method was explored - the primary indicator is the rate of increased expenditure of treatement group should be lower than that of control group.
+This project was conducted in response to the 2022 data challenge hosted by the American Causal Inference Challenge (ACIC), [available at ACIC](https://acic2022.mathematica.org/). The goal of the analysis was to evaluate the nuanced impacts of policy interventions that aim to lower Medicare expenditure by using causal inference methods. In this project, Differences-in-Differences(DiD) method was explored - the analysis aims to validate whether the rate of expenditure increase in the treatment group is lower than that in the control group after interventions.
 
 ### Skills Used
 * Data Analysis
