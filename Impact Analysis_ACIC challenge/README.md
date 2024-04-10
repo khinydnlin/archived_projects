@@ -1,4 +1,4 @@
-# Impact Analysis of Cost-Containment Measures in Healthcare Expenditures
+# Evaluating the Effectiveness of Healthcare Interventions Using Causal Inference
 
 #### -- Project Status: [In-progress]
 
