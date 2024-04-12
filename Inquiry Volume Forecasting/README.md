@@ -35,6 +35,9 @@ data to confirm this. In response to the research question 1, the application of
 #### - Research Question 2 
 In exploring the effect of digital advertising metrics on forecasting inquiry demands, we found that both advertising spending and the number of distinct campaigns variables have statistically significant positive correlations with inquiry demands, and the strengths of the correlations are moderate. These correlations, among all digital advertising metrics, exhibited the strongest influence on the dependent variable. Other digital advertising variables, such as campaign completers and non-completers, displayed weaker direct correlations with chat inquiries. Crosscorrelation analysis did not reveal any significant time-delayed relationships between digital advertising variables and inquiry volumes. Furthermore, Model 6, which incorporated advertising spending and the number of campaigns, outperformed other models in terms of accuracy, achieving a 10.236% MAPE. observe an improvement in the forecast error by approximately 4% compared to the benchmark model without any digital advertising effects ( 10.623 % MAPE).
 
+### Data Processing and Modelling
+
+In total, 6 ARIMA models were explored.
 
 | Models  | Selected External Variables                                                             |    
 |---------|-----------------------------------------------------------------------------------------|
@@ -45,6 +48,8 @@ In exploring the effect of digital advertising metrics on forecasting inquiry de
 | Model 4 | Number of distinct advertising campaigns, workday, special day                          |
 | Model 5 | Interaction term (Advertising spending  and number of campaigns),  workday, special day | 
 | Model 6 | Advertising spending, number of distinct advertising campaigns, workday, special day    |
+
+![ARIMA_results](https://github.com/khinydnlin/portfolio/assets/145341635/09d231af-dd0f-461a-94dd-ebf2ff2d382c)
 
 
 ## Challenges and Further Model Improvement
