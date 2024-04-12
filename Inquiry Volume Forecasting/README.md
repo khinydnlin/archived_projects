@@ -16,10 +16,8 @@ In the rapidly evolving business environment, contact centres are becoming essen
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is available within this repo. Get dataset 1 [here](https://github.com/khinydnlin/portfolio/blob/main/Impact%20Analysis_ACIC%20challenge/acic_data.csv) and year_data [here](https://github.com/khinydnlin/portfolio/blob/main/Impact%20Analysis_ACIC%20challenge/acic_year.csv). Two files need to be merged by id.practice in order to run analysis.
-3. Data processing and modelling scripts are available [here](https://github.com/khinydnlin/portfolio/blob/main/Impact%20Analysis_ACIC%20challenge/DiD_analysis_scripts.R)
-4. The project findings and other details can be found below:
+1. Data processing and modelling scripts are available [here](https://github.com/khinydnlin/portfolio/blob/main/Inquiry%20Volume%20Forecasting/ARIMA_forecasting.R)
+2. The project findings and other details can be found below:
 
 ## Project Details
 
