@@ -23,8 +23,8 @@ In the rapidly evolving business environment, contact centres are becoming essen
 ## Project Description
 
 ### Research Questions
-• How can time series forecasting methods be applied to predict inquiry demands in a Messenger channel for optimising resource allocation and improving response times in the contact centre? 
-• How does the integration of digital advertising metrics affect the forecasting performance of inquiry demands for the Messenger channel? 
+- How can time series forecasting methods be applied to predict inquiry demands in a Messenger channel for optimising resource allocation and improving response times in the contact centre? 
+- How does the integration of digital advertising metrics affect the forecasting performance of inquiry demands for the Messenger channel? 
 
 ### Findings
 
