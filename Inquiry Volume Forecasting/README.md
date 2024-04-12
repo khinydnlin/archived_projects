@@ -36,6 +36,15 @@ In exploring the effect of digital advertising metrics on forecasting inquiry de
 
 ### Data Processing and Modelling
 
+As part of exploratory analysis, correlation analysis and cross-correlation analysis (CCF) were performed between target variable (inquiry volumes) and external predictors (advertising information). Correlation analysis suggests that there is a moderate direct correlation between the two features (digital advertising expenditure and campaign volumes) and the target. However, CCF analysis suggests that there is no apparent lagged temporal relationship between target and external predictors, meaning the influence of digital advertising seems to be immediate. Therefore, lagged variables were not included in model exploration.
+
+Extended ARIMA model equation:
+
+If  nt  follows an ARIMA (1,1,1) order, an extended ARIMA model can be written as 
+
+![ARIMA equation](https://github.com/khinydnlin/portfolio/assets/145341635/b922fdc4-8849-4d45-bb4d-5d4c21f089c3)
+
+
 In total, 6 ARIMA models were explored.
 
 | Models  | Selected External Variables                                                             | MAPE   |
@@ -45,7 +54,7 @@ In total, 6 ARIMA models were explored.
 | Model 2 | Number of completers, workday, special day                                              | 10.408 |
 | Model 3 | Number of non-completers, workday, special day                                          | 12.510 |
 | Model 4 | Number of distinct advertising campaigns, workday, special day                          | 10.291 |
-| Model 5 | Interaction term (Advertising spending  and number of campaigns),  workday, special day | 12.258 |
+| Model 5 | Interaction term (Advertising spending and number of campaigns),  workday, special day | 12.258 |
 | Model 6 | Advertising spending, number of distinct advertising campaigns, workday, special day    | 10.236 |
 
 - Among all the models, model 2, 3 and 5 were removed from consideration as these models do not meet the model assumptions based on Ljung-Box residual tests.
