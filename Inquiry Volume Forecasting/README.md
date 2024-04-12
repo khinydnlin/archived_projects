@@ -10,6 +10,7 @@ In the rapidly evolving business environment, contact centres are becoming essen
 * Time Series Analysis
 * ARIMA Time Series Forecasting (dynamic regression model with ARIMA errors)
 * Demand Forecasting
+* Cross-correlation Analysis
 
 ### Technologies
 * R (Forecast package)
