@@ -8,8 +8,7 @@ In the rapidly evolving business environment, contact centres are becoming essen
 
 ### Skills Used
 * Time Series Analysis
-* ARIMA Time Series Forecasting (dynamic regression model with ARIMA errors)
-* Demand Forecasting
+* ARIMA Time Series Forecasting (dynamic regression model with ARIMA errors)/ Demand Forecasting
 * Cross-correlation Analysis
 
 ### Technologies
