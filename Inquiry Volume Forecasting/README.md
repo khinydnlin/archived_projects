@@ -52,8 +52,10 @@ In total, 6 ARIMA models were explored.
 
 - Among all the models, model 2, 3 and 5 were removed from consideration as these models do not meet the model assumptions based on Ljung-Box residual tests.
 - Model 6 (lowest MAPE) outperformed the benchmark model 0, proving that adding advertising expenditure and the volume of ads campaigns into the ARIMA model produced slightly more accurate forecasts for inquiry demand forecasting.
+  
 
 ![ARIMA_results](https://github.com/khinydnlin/portfolio/assets/145341635/09d231af-dd0f-461a-94dd-ebf2ff2d382c)
+
 
 
 ### Theorectical Contributions and Mangerial Implications
